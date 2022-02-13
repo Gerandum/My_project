@@ -1,0 +1,128 @@
+@import url(null.css);
+
+@font-face {
+	font-family: "Poppins";
+	src: url("Poppins-BoldItalic.woff2") format("woff2"), url("Poppins-BoldItalic.woff") format("woff");
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("Poppins-LightItalic.woff2") format("woff2"), url("Poppins-LightItalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("Poppins-MediumItalic.woff2") format("woff2"), url("Poppins-MediumItalic.woff") format("woff");
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	background-color: brown;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.head {
+	margin-top: 40px;
+	margin-left: 100px;
+	max-width: 1200px;
+}
+.navig-item > li {
+	display: inline-block;
+	background-image: url(../img/soplo.png);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	text-shadow: 3px 3px 8px rgb(224, 194, 155);
+}
+main {
+	margin-top: 40px;
+	margin-left: 100px;
+	max-width: 1200px;
+	padding-top: 30px;
+	background: url(../img/tpu.jpg) 700px 1500px no-repeat scroll;
+	border-radius: 20px;
+	background-color: burlywood;
+	outline: 3px groove black;
+}
+.start {
+	display: inline-block;
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	background-image: url(../img/arowe1.png);
+	background-size: 20px 25px;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	padding-top: 3px;
+
+	background-color: coral;
+	text-align: left;
+	outline: 1px groove;
+}
+.main-alt,
+.main-2{
+	margin-left: 100px;
+	max-width: 400px;
+}
+
+.main-alt > h3,
+.main-2 > h3,
+.main-2-1>h3 {
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 3px 3px 9px;
+}
+.main-alt > p,
+.main-2 > p,
+.main-2-1>p {
+	text-align: justify;
+	margin-top: 20px;
+	line-height: 130%;
+}
+
+.fix {
+	background-image: url(../img/arowe.png);
+	background-size: 25px 16px;
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left: 25px;
+}
+.main-1 {
+	min-height: 300px;
+	min-width: 400px;
+	margin-left: 700px;
+	margin-top: -950px;
+	margin-bottom: 360px;
+	padding-top: 300px;
+	background: url(../img/fon_2.jpg) 800px 235px no-repeat fixed;
+	background-size: 400px;
+}
+.item{
+	margin-top: 10px;
+}
+.item > li {
+	margin-top: 10px;
+	background-image: url(../img/smart-men.png);
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	line-height: 150%;
+}
+.main-2-1{
+	margin-left: 100px;
+	padding-right: 600px;
+	background: url(../img/exoskeleton.jpg)top right/550px 300px no-repeat,url(../img/skelet.jpg) right 400px/550px 300px no-repeat;
+}
